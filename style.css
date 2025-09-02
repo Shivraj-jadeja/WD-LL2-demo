@@ -18,3 +18,39 @@ html {
   color: white;
   gap: 1.5rem;
 }
+/* Hero Section Styles */
+.hero {
+  background-color: #FDF6E3; /* Light, fun background */
+  text-align: center;        /* Center all content */
+  padding: 3rem 1rem;        /* Space around content */
+  margin-top: 2rem;          /* Space below navbar */
+  border-radius: 12px;       /* Rounded corners for a quirky look */
+  box-shadow: 0 2px 8px rgba(1, 121, 111, 0.1); /* Soft shadow */
+}
+
+.hero h1 {
+  color: #01796F;            /* Match navbar color */
+  font-size: 2.5rem;         /* Big, bold heading */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #01796F;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero button:hover {
+  background-color: #025C54;
+}
